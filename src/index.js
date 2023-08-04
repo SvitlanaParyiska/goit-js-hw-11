@@ -98,6 +98,7 @@ function addMarkUp(data) {
       }) => `<div class="photo-card">
   <a class="gallery__link" href="${largeImageURL}"><img src=${webformatURL} alt=${tags} loading="lazy"  width=320 height=214 /></a>
   <div class="info">
+  <p class="info-item">
       <b>Likes </br>${likes}</b>
     </p>
     <p class="info-item">
